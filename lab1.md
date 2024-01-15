@@ -32,8 +32,8 @@ The working directory at the beginning was home/lecture1
 
 ***Example 3: File as argument***
 
-[user@sahara ~/lecture1]$ `ls` Hello.java
-Hello.java
+[user@sahara ~/lecture1]$ `ls` Hello.java  
+Hello.java  
 The command lists the file as it is because it is not a directory.
 
 [user@sahara ~/lecture1]$ `cd` Hello.java  
