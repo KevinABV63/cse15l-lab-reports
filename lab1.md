@@ -22,7 +22,7 @@ The command lists the files in the messages folder.
 
 [user@sahara ~/lecture1]$ `cd` messages  
 [user@sahara ~/lecture1/messages]$  
-The current directory is the showed above now.
+The current directory is the one showed above now.
 
 [user@sahara ~/lecture1/messages]$ `cat` messages  
 bash: cd: messages: No such file or directory *  
