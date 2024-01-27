@@ -120,7 +120,7 @@ public class Hello {
 ```
 The command displays the contets of the Hello.java file.
 
-The working directory is `lecture`. The output is not an error.
+The working directory is `lecture1`. The output is not an error.
 
 
 
