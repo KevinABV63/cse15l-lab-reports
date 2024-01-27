@@ -118,7 +118,7 @@ public class Hello {
   }
 }[user@sahara ~/lecture1]$
 ```
-The command displays the contets of the Hello.java file.
+The command displays the contents of the Hello.java file.
 
 The working directory is `lecture1`. The output is not an error.
 
