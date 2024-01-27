@@ -9,7 +9,7 @@
 
 The working directory is home.
 
-`cd` goes into a directory if it is in the current working directory. Because there was no argument, `cd` takes you back to home.
+`cd` goes into a directory if it is in the current working directory. There was no argument, so `cd` takes you back to home.
 
 The ouput is not an error
 
