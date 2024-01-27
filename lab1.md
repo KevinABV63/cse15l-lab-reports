@@ -98,7 +98,7 @@ The output is not an error.
   [user@sahara ~/lecture1]$ cat lecture1
   cat: lecture1: No such file or directory
 ```
-The working directory is home. cat prints out the name of the directory in the file and that it is a directory.
+The working directory is `home`. cat prints out the name of the directory in the file and that it is a directory.
 
 The output is an error because it did not do what was intended.
 
