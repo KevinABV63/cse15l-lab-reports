@@ -9,9 +9,9 @@
 
 The working directory is home.
 
-`cd` goes into a directory if it is in the current working directory. There was no argument, so `cd` takes you back to home.
+`cd` goes into a directory if it is in the current working directory. There was no argument, so `cd` returns you to home.
 
-The ouput is not an error
+The output is not an error
 
 ## Directory as argument
 
@@ -22,9 +22,9 @@ The ouput is not an error
 
 The working directory is `home`.
 
-`cd` goes into a directory if it is in the current working directory, so the current working directory changed to lecturel, the argument.
+`cd` goes into a directory if it is in the current working directory, so the current working directory changed to lecturel.
 
-The ouput is not an error
+The output is not an error
 
 ## File as argument
 
@@ -35,9 +35,9 @@ The ouput is not an error
 
 The working directory is `lecturel`.
 
-`cd` goes into a directory if it is in the current working directory, but the argument was a file so nothing happened.
+`cd` goes into a directory if it is in the current working directory, but the argument was a file so the output prints 'not a directory'
 
-The ouput is an error because it did not do what was intended.
+The output is an error because it did not do what was intended.
 
 # `ls`
 
