@@ -3,8 +3,10 @@
 ## No arguments
 
 ```
+{
   [user@sahara ~]$ cd
-  [user@sahara ~]$ 
+  [user@sahara ~]$
+} 
 ```
 
 The working directory is home.
@@ -16,8 +18,10 @@ The output is not an error
 ## Directory as argument
 
 ```
+{
   [user@sahara ~]$ cd lecture1
   [user@sahara ~/lecture1]$
+}
 ```
 
 The working directory is `home`.
@@ -29,8 +33,10 @@ The output is not an error
 ## File as argument
 
 ```
+{
   [user@sahara ~/lecture1]$ `cd` Hello.java
   bash: cd: Hello.java: Not a directory
+}
 ```
 
 The working directory is `lecturel`.
@@ -44,8 +50,10 @@ The output is an error because it did not do what was intended.
 ## No arguments
 
 ```
+{
   [user@sahara ~]$ ls
   lecture1
+}
 ```
 
 The working directory is `home`.
@@ -57,8 +65,10 @@ The output is not an error.
 ## directory as argument
 
 ```
+{
   [user@sahara ~]$ ls lecture1
   Hello.class  Hello.java  messages  README
+}
 ```
 
 The working directory is `home`.
@@ -68,8 +78,10 @@ The working directory is `home`.
 ## file as argument
 
 ```
+{
   [user@sahara ~/lecture1]$ ls Hello.java
   Hello.java
+}
 ```
 
 The working directory is `lecturel`.
@@ -83,7 +95,10 @@ The output is not an error.
 ## no arguments
 
 ```
+{
   [user@sahara ~]$ cat
+
+}
 
 ```
 The working directory is `home`. The output does not show any content as no file was specified.
@@ -95,8 +110,10 @@ The output is not an error.
 ## directory as argument
 
 ```
+{
   [user@sahara ~/lecture1]$ cat lecture1
   cat: lecture1: No such file or directory
+}
 ```
 The working directory is `home`. cat prints out the name of the directory in the file and that it is a directory.
 
@@ -105,6 +122,7 @@ The output is an error because it did not do what was intended.
 ## file as an argument
 
 ```
+{
 [user@sahara ~/lecture1]$ cat Hello.java
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
@@ -117,6 +135,7 @@ public class Hello {
     System.out.println(content);
   }
 }[user@sahara ~/lecture1]$
+}
 ```
 The command displays the contents of the Hello.java file.
 
