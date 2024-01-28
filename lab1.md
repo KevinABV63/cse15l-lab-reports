@@ -22,7 +22,7 @@ The output is not an error
 
 The working directory is `home`.
 
-`cd` goes into a directory if it is in the current working directory, so the current working directory changed to lecturel.
+`cd` goes into a directory if it is in the current working directory, so the current working directory changed to `lecture1`.
 
 The output is not an error
 
