@@ -59,7 +59,56 @@ public class ChatServer {
 } 
 ```
 ![Chat](ChatServer1.png)
+
+### Scenario 1: After /add-message?s=Hello&user=kbriceno
+#### Methods Called:
+
+`handle` method in `ChatHandler` class is called.
+
+#### Relevant Arguments and Values:
+
+URL: /add-message?s=Hello&user=kbriceno
+
+##### Parameters Extracted:
+
+user: "kbriceno"
+
+message: "Hello"
+
+#### Changes in Relevant Fields:
+
+`chatMessages` field in `ChatHandler` class:
+
+Before: Empty StringBuilder
+
+After: Appended with "kbriceno: Hello\n"
+
 ![Chat2](ChatServer2.png)
+
+### Scenario 2: After /add-message?s=How%20are%20you&user=yash
+#### Methods Called:
+
+`handle` method in `ChatHandler` class is called.
+
+#### Relevant Arguments and Values:
+
+URL: /add-message?s=How%20are%20you&user=yash
+
+##### Parameters Extracted:
+
+user: "yash"
+
+message: "How+are+you"
+
+#### Changes in Relevant Fields:
+
+`chatMessages` field in `ChatHandler` class:
+
+Before: "kbriceno: Hello\n"
+
+After: Appended with "yash: How%20are%20you\n"
+
+# Part 2
 
 
 
