@@ -85,14 +85,14 @@ After: Appended with "kbriceno: Hello\n"
 
 ![Chat2](ChatServer2.png)
 
-### Scenario 2: After /add-message?s=How%20are%20you&user=yash
+### Scenario 2: After /add-message?s=How are you&user=yash
 #### Methods Called:
 
 `handle` method in `ChatHandler` class is called.
 
 #### Relevant Arguments and Values:
 
-URL: /add-message?s=How%20are%20you&user=yash
+URL: /add-message?s=How are you&user=yash
 
 ##### Parameters Extracted:
 
@@ -106,9 +106,22 @@ message: "How+are+you"
 
 Before: "kbriceno: Hello\n"
 
-After: Appended with "yash: How%20are%20you\n"
+After: Appended with "yash: How+are+you\n"
 
 # Part 2
+
+## Private
+![Private](private.png)
+
+## Public
+![Public](public.png)
+
+## No Password
+![Nopassword](NoPassword.png)
+
+# Part 3
+
+One of the things I did not know about was building and running a server. Also, I did not know how to run the server on a remote computer.
 
 
 
