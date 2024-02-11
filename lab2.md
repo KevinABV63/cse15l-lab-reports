@@ -111,10 +111,10 @@ After: Appended with "yash: How+are+you\n"
 # Part 2
 
 ## Private
-![Private](private.jpg)
+![Private](private.png)
 
 ## Public
-![Public](public.png)
+![Public](public.jpg)
 
 ## No Password
 ![Nopassword](NoPassword.png)
