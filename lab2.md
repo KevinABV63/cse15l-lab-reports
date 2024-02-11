@@ -113,8 +113,12 @@ After: Appended with "yash: How+are+you\n"
 ## Private
 ![Private](private.png)
 
+id_rsa is the private key.
+
 ## Public
-![Public](public.jpg)
+![Public](public.png)
+
+id_rsa.pub is the public key.
 
 ## No Password
 ![Nopassword](NoPassword.png)
