@@ -1127,7 +1127,7 @@ $ find ./technical -mtime -7
 $ find ./technical -mtime 3
 
 ```
-`find -mtime` looks for files modified three days ago. No files were created three days ago so there are no files printed.
+`find -mtime` looks for files modified three days ago. No files were modified three days ago so there are no files printed.
 
 ## `find -atime`
 ### Example 7
