@@ -1,5 +1,5 @@
 # Lab Report 4
-## Step 4: Log into ieng6.
+## Step 4: Logging into ieng6.
 ![Step4](Step4.png)
 
 I typed `ssh kbriceno@ieng6.ucsd.edu` and logged in as usual.
