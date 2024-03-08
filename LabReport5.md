@@ -90,3 +90,6 @@ public static int addNumbers(int a, int b) {
 }
 ````
 By making this correction, running the program should produce the correct sum instead of the unintended product.
+
+## Part 2
+One of the most interesting things I learned was editing code from the terminal using vim. I found it very useful.Actually, I feel like all the commands that I learned will be quite useful in the future.
